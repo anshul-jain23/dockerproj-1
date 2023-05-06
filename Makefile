@@ -1,5 +1,6 @@
 setup:
 	python3 -m venv ~/.dockerproj
+	source ~/.dockerproj/bin/activate
 
 install:
 	pip install --upgrade pip &&\
